@@ -1,0 +1,77 @@
+*{
+    overflow-x: hidden;
+}
+.navbar{
+
+    padding:15px;
+}
+
+.navbar>a{
+    font-size:32px;
+    color: #0026ff;
+    text-decoration: none;
+    position: relative;
+    left:655px;
+}
+
+.click{
+    font-size:20px;
+    color: #0026ff;
+    position: relative;
+    left:630px;
+}
+
+.uData{
+    width:350px;
+    padding:15px;
+    margin-top:30px;
+    text-align: center;
+    padding: 10px 16px;
+    margin: 20px 0;
+   
+   
+}
+
+.uData:hover{
+    box-shadow: 3px 5px 7px rgb(198 188 188);
+    cursor: pointer;
+}
+
+.userData{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:12px;
+    position: relative;
+    left:180px;
+}
+
+.userName{
+    font-size:20px;
+}
+
+.userEmail a{
+    text-decoration: none;
+    color:#0072d5;
+    font-size:15px;
+}
+
+.userEmail a:hover{
+    text-decoration: underline;
+}
+
+.userDe{
+    display: grid;
+    grid-template-rows: 1fr;
+    text-align: center;
+    width: 500px;
+    position: relative;
+    left: 460px;
+    box-shadow: 3px 5px 7px rgb(198 188 188);
+    padding:25px;
+}
+
+.userID ,.userName ,.userMail ,.userGender ,.userStatus , .post{
+    font-size: 15px;
+    color:#333;
+}
+
