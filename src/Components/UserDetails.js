@@ -19,6 +19,7 @@ const UserDetails = () => {
       }, [location.state.userID])
       
       const { id } = useParams();
+      console.log(id);
     return (  
     <div className="userDe">
 
