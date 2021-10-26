@@ -4,10 +4,11 @@ const UserDetails = () => {
     
     const [postShow, setpostShow] = useState([]);
     const location=useLocation();
-
+    const { id } = useParams();
+    
     useEffect(() => {
         const fetchingPost = async () => {
-          fetch(`https://gorest.co.in/public/v1/users/${location.state.userID}/posts`)
+          fetch(`https://gorest.co.in/public/v1/users/${id}/posts`)
           .then(res => {
           return res.json();
           })
@@ -18,8 +19,8 @@ const UserDetails = () => {
         fetchingPost();
       }, [location.state.userID])
       
-      const { id } = useParams();
-      console.log(id);
+    
+     
     return (  
     <div className="userDe">
 

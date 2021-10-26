@@ -19,7 +19,7 @@ import Users from './Components/Users';
                 <Users/>
               </Route>
 
-              <Route exact path="/users/user-id">
+              <Route exact path="/users/:userid">
                 <UserDetails/>
               </Route>
 
